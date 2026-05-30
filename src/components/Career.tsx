@@ -18,7 +18,7 @@ const Career = () => {
                 <h4>Senior AI Engineer</h4>
                 <h5>Lowe's India · Bengaluru</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2024–NOW</h3>
             </div>
             <p>
               Pioneered MyLow Companion — Lowe's enterprise multi-agent AI
@@ -26,6 +26,20 @@ const Career = () => {
               queries. Designed centralized Memory MCP server, drove 90% cost
               reduction via GenAI Contact Center, and enabled 500+ RAG assistants
               across 100+ teams.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Senior GenAI Consultant</h4>
+                <h5>SeenTech Enterprise Solutions · Global</h5>
+              </div>
+              <h3>2024–NOW</h3>
+            </div>
+            <p>
+              Led complete architecture and development of Tapp (tipping app) integrating 
+              Generative AI & payment gateways. Delivered multi-agent workflows, RAG pipelines, 
+              and AI strategy consulting for diverse clients across USA, Germany, KSA, and South Africa.
             </p>
           </div>
           <div className="career-info-box">
@@ -46,7 +60,21 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Software Engineer</h4>
+                <h4>Golang Consultant</h4>
+                <h5>IOCO Digital (MTN) · Bengaluru</h5>
+              </div>
+              <h3>2021–23</h3>
+            </div>
+            <p>
+              Developed backend microservices for MTN's subscriber-facing mobile app 
+              serving millions of users across Africa. Designed scalable REST APIs and 
+              gRPC services for high-concurrency telecom workloads using Golang & PostgreSQL.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Senior Software Engineer</h4>
                 <h5>Nokia Networks · Bengaluru</h5>
               </div>
               <h3>2020–21</h3>
@@ -60,7 +88,7 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Assoc. Sf Engineer</h4>
+                <h4>Assoc. Software Engineer</h4>
                 <h5>TELUS International · Noida</h5>
               </div>
               <h3>2018–20</h3>

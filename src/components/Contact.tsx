@@ -9,6 +9,9 @@ const Contact = () => {
         <div className="contact-flex">
           <div className="contact-box">
             <h4>Connect</h4>
+            <p className="contact-availability" style={{ color: "var(--accentColor)", fontWeight: 500 }}>
+              Open to Freelance • Contract • Remote
+            </p>
             <p>
               <a
                 href="https://www.linkedin.com/in/chandra-bhakar-13790554/"

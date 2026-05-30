@@ -58,6 +58,8 @@ const WhatIDo = () => {
               />
             </svg>
           </div>
+          
+          {/* Card 1 */}
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 0)}
@@ -103,12 +105,13 @@ const WhatIDo = () => {
                 <div className="what-tags">LLMs &amp; GPT</div>
                 <div className="what-tags">Vector Databases</div>
                 <div className="what-tags">Prompt Engineering</div>
-                <div className="what-tags">Agentic Frameworks</div>
                 <div className="what-tags">Google ADK</div>
               </div>
               <div className="what-arrow"></div>
             </div>
           </div>
+          
+          {/* Card 2 */}
           <div
             className="what-content what-noTouch"
             ref={(el) => setRef(el, 1)}
@@ -149,6 +152,46 @@ const WhatIDo = () => {
               <div className="what-arrow"></div>
             </div>
           </div>
+
+          {/* Card 3 */}
+          <div
+            className="what-content what-noTouch"
+            ref={(el) => setRef(el, 2)}
+          >
+            <div className="what-border1">
+              <svg height="100%">
+                <line
+                  x1="0"
+                  y1="100%"
+                  x2="100%"
+                  y2="100%"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeDasharray="6,6"
+                />
+              </svg>
+            </div>
+            <div className="what-corner"></div>
+            <div className="what-content-in">
+              <h3>FREELANCE &amp; ADVISORY</h3>
+              <h4>Global GenAI Consulting</h4>
+              <p>
+                Independent consultant designing and delivering AI strategy,
+                agentic workflows, and end-to-end applications (e.g., Tapp) 
+                for diverse clients across the USA, Germany, KSA, and South Africa.
+              </p>
+              <h5>Focus Areas</h5>
+              <div className="what-content-flex">
+                <div className="what-tags">AI Strategy</div>
+                <div className="what-tags">End-to-End Delivery</div>
+                <div className="what-tags">Tech Leadership</div>
+                <div className="what-tags">Architecture Design</div>
+                <div className="what-tags">Remote &amp; Contract</div>
+              </div>
+              <div className="what-arrow"></div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -164,7 +207,7 @@ function handleClick(container: HTMLDivElement) {
     const siblings = Array.from(container.parentElement.children);
 
     siblings.forEach((sibling) => {
-      if (sibling !== container) {
+      if (sibling !== container && sibling.classList.contains("what-content")) {
         sibling.classList.remove("what-content-active");
         sibling.classList.toggle("what-sibling");
       }
