@@ -12,16 +12,7 @@ const Contact = () => {
             <p className="contact-availability" style={{ color: "var(--accentColor)", fontWeight: 500 }}>
               Open to Freelance • Contract • Remote
             </p>
-            <p>
-              <a
-                href="https://www.linkedin.com/in/chandra-bhakar-13790554/"
-                target="_blank"
-                rel="noreferrer"
-                data-cursor="disable"
-              >
-                LinkedIn — chandra-bhakar
-              </a>
-            </p>
+
             <p>
               <a
                 href="mailto:chandrabhakar@gmail.com"
@@ -34,10 +25,10 @@ const Contact = () => {
             </p>
             <p>
               <a
-                href="tel:+919461165012"
+                href="tel:+917014805220"
                 data-cursor="disable"
               >
-                +91 9461165012
+                +91 7014805220
               </a>
             </p>
             <h4>Education</h4>
@@ -57,15 +48,7 @@ const Contact = () => {
             >
               GitHub <MdArrowOutward />
             </a>
-            <a
-              href="https://www.linkedin.com/in/chandra-bhakar-13790554/"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              LinkedIn <MdArrowOutward />
-            </a>
+
             <a
               href="https://www.instagram.com/charizard_hates_pikachu/"
               target="_blank"
