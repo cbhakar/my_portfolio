@@ -6,11 +6,16 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am currently co-founder of CallHQ.ai, building real-time voice AI for
-          businesses. I am a technologist at heart with strong business judgment—
-          I enjoy going from product strategy to hands-on engineering. My background
-          spans leadership at Adobe, founding Broki and CallHQ, and shipping
-          full-stack products end to end.
+          Senior AI Engineer with 8+ years of full-stack software engineering
+          and AI product delivery in Fortune 500 environments. I started my
+          career building enterprise backend systems, REST APIs, and
+          microservices with Golang and Python — then transitioned into AI,
+          where I architected Lowe's flagship platform, MyLow Companion, from
+          scratch and scaled it to ~1,900 US stores handling 50,000+ daily
+          queries. My expertise spans multi-agent orchestration, MCP server
+          design, RAG pipelines, vector databases, and high-performance
+          distributed systems — consistently driving outcomes like 90% cost
+          reduction and 500+ deployed AI assistants across enterprise teams.
         </p>
       </div>
     </div>

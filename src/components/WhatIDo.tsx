@@ -87,20 +87,24 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>AI &amp; MULTI-AGENT SYSTEMS</h3>
+              <h4>Enterprise-Scale AI Platforms</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                Designing and building multi-agent AI platforms, RAG pipelines,
+                MCP servers, and long-term memory services — deployed across
+                enterprise environments handling 50,000+ daily queries with
+                sub-second retrieval.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">Multi-Agent Systems</div>
+                <div className="what-tags">RAG Pipelines</div>
+                <div className="what-tags">MCP Servers</div>
+                <div className="what-tags">LLMs &amp; GPT</div>
+                <div className="what-tags">Vector Databases</div>
+                <div className="what-tags">Prompt Engineering</div>
+                <div className="what-tags">Agentic Frameworks</div>
+                <div className="what-tags">Google ADK</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -124,21 +128,23 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>PLATFORM ENGINEERING</h3>
+              <h4>Production-Grade AI Infrastructure</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                Building high-performance backend systems with Python &amp;
+                Golang — from microservices and async worker architectures to
+                real-time ingestion pipelines and vector retrieval, all
+                orchestrated on Kubernetes at enterprise scale.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
                 <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Golang</div>
+                <div className="what-tags">FastAPI</div>
+                <div className="what-tags">Kubernetes</div>
+                <div className="what-tags">Kafka</div>
+                <div className="what-tags">Milvus &amp; Weaviate</div>
+                <div className="what-tags">PostgreSQL &amp; Redis</div>
               </div>
               <div className="what-arrow"></div>
             </div>

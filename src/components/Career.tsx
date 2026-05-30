@@ -15,58 +15,60 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Senior AI Engineer</h4>
+                <h5>Lowe's India · Bengaluru</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Pioneered MyLow Companion — Lowe's enterprise multi-agent AI
+              platform — deployed across ~1,900 US stores with 50,000+ daily
+              queries. Designed centralized Memory MCP server, drove 90% cost
+              reduction via GenAI Contact Center, and enabled 500+ RAG assistants
+              across 100+ teams.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Software Engineer</h4>
+                <h5>Lowe's India · Bengaluru</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2021–24</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Built self-service data profiling (ADP), anomaly detection (ADA),
+              and continuous ingestion (ACI) platforms as sole/lead engineer
+              using Golang, Kafka, Druid, and REST schedulers for enterprise
+              forecasting workflows.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Software Engineer</h4>
+                <h5>Nokia Networks · Bengaluru</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2020–21</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Built cloud-based network management (FCAPS); led microservices
+              monorepo migration and configuration consistency validation in a
+              TDD/Agile environment.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>Assoc. Sf Engineer</h4>
+                <h5>TELUS International · Noida</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3>2018–20</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Designed virtual assistant APIs, Visual IVR platforms, and
+              real-time mobile number portability services using Golang, Python,
+              Oracle SOA, and PostgreSQL.
             </p>
           </div>
         </div>

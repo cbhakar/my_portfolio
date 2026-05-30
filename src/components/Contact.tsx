@@ -11,27 +11,42 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
+                href="https://www.linkedin.com/in/chandra-bhakar-13790554/"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                LinkedIn — akashrmalhotra
+                LinkedIn — chandra-bhakar
+              </a>
+            </p>
+            <p>
+              <a
+                href="mailto:chandrabhakar@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                data-cursor="disable"
+              >
+                chandrabhakar@gmail.com
+              </a>
+            </p>
+            <p>
+              <a
+                href="tel:+919461165012"
+                data-cursor="disable"
+              >
+                +91 9461165012
               </a>
             </p>
             <h4>Education</h4>
             <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
-            </p>
-            <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
+              B.Tech — Computer Science & Engineering, JECRC UDML College of
+              Engineering, Rajasthan Technical University, Jaipur — 2012–2016
             </p>
           </div>
-          <div className="contact-box">
+          <div className="contact-box contact-social-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/akashrmalhotra"
+              href="https://github.com/cbhakar"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -40,7 +55,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
+              href="https://www.linkedin.com/in/chandra-bhakar-13790554/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -49,16 +64,7 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://www.youtube.com/@Leftbraincoder"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              YouTube <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/leftbraincoder/"
+              href="https://www.instagram.com/charizard_hates_pikachu/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -67,14 +73,14 @@ const Contact = () => {
               Instagram <MdArrowOutward />
             </a>
           </div>
-          <div className="contact-box">
-            <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
-            </h2>
-            <h5>
-              <MdCopyright /> 2026
-            </h5>
-          </div>
+        </div>
+        <div className="contact-footer">
+          <h2>
+            Designed and Developed <br /> by <span>Chandra Bhakar</span>
+          </h2>
+          <h5>
+            <MdCopyright /> 2026
+          </h5>
         </div>
       </div>
     </div>

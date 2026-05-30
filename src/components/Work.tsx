@@ -5,32 +5,52 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "MyLow Companion",
+    category: "Enterprise Multi-Agent AI Platform",
+    tools: "Python · FastAPI · OpenAI · Google ADK · Whisper · Mistral · VLLM · Milvus · Kubernetes",
+    image: "/images/mylow_companion.png",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "Lowe's Memory Service",
+    category: "MCP Server · Long-Term Agent Memory",
+    tools: "Python · FastMCP · PostgreSQL · Redis · Weaviate · Google Vertex Vector Search · Kubernetes",
+    image: "/images/memory_service.png",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "Contact Center Intelligence",
+    category: "AI Call Analytics Pipeline",
+    tools: "Whisper ASR · Mistral · VLLM · Milvus · Async Worker Architecture · Sentiment Analysis",
+    image: "/images/contact_center.png",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "Automated Data Profiling",
+    category: "Self-Service Metadata Discovery Platform",
+    tools: "Golang · REST APIs · PostgreSQL · Data Profiling · Enterprise Self-Service",
+    image: "/images/memory_service.png",
+  },
+  {
+    title: "Anomaly Detection (ADA)",
+    category: "Self-Service Anomaly Detection System",
+    tools: "Golang · Async Workers · Parallel Data Scanning · High-Speed Processing",
+    image: "/images/contact_center.png",
+  },
+  {
+    title: "Continuous Ingestion (ACI)",
+    category: "Real-Time Ingestion & Forecasting Pipeline",
+    tools: "Golang · Kafka · Apache Druid · REST Schedulers · Real-Time Streaming",
+    image: "/images/mylow_companion.png",
+  },
+  {
+    title: "Network Operation Master",
+    category: "Cloud-Based Network Management (FCAPS)",
+    tools: "Microservices · Monorepo Migration · Configuration Validation · TDD · Agile",
+    image: "/images/memory_service.png",
+  },
+  {
+    title: "Virtual Assistant & Visual IVR",
+    category: "Enterprise Customer Service Platforms",
+    tools: "Golang · Python · PostgreSQL · API Design · Chatbot · Digital IVR",
+    image: "/images/contact_center.png",
   },
 ];
 
@@ -107,7 +127,7 @@ const Work = () => {
                           {project.category}
                         </p>
                         <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
+                          <span className="tools-label">Tech Stack</span>
                           <p>{project.tools}</p>
                         </div>
                       </div>
@@ -116,7 +136,6 @@ const Work = () => {
                       <WorkImage
                         image={project.image}
                         alt={project.title}
-                        link={project.link}
                       />
                     </div>
                   </div>

@@ -13,14 +13,18 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/react2.webp",
-  "/images/next2.webp",
-  "/images/node2.webp",
-  "/images/express.webp",
-  "/images/mongo.webp",
-  "/images/mysql.webp",
-  "/images/typescript.webp",
-  "/images/javascript.webp",
+  "/images/python.png",
+  "/images/golang.png",
+  "/images/kubernetes.png",
+  "/images/docker.png",
+  "/images/kafka.png",
+  "/images/fastapi.png",
+  "/images/postgresql.png",
+  "/images/redis.png",
+  "/images/openai.png",
+  "/images/milvus.png",
+  "/images/weaviate.png",
+  "/images/mistral.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -158,10 +162,10 @@ const TechStack = () => {
           map: texture,
           emissive: "#ffffff",
           emissiveMap: texture,
-          emissiveIntensity: 0.3,
-          metalness: 0.5,
-          roughness: 1,
-          clearcoat: 0.1,
+          emissiveIntensity: 0.8,
+          metalness: 0.1,
+          roughness: 0.4,
+          clearcoat: 0.3,
         })
     );
   }, []);
